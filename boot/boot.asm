@@ -38,7 +38,7 @@ Label_Start:
 	mov	bp,	StartBootMessage
 	int	10h
 
-;=======	reset floppy
+;=======	reset floppy ====== xor自己都是0
 
 	xor	ah,	ah
 	xor	dl,	dl
